@@ -35,7 +35,7 @@ def bayer_dithering(image_path, output_path, matrix_size):
     input_image.save(output_path)
 
 if __name__ == "__main__":
-    input_path = "input/flower.png"  # Replace with the path to your input image
+    input_path = "input/cat.png"  # Replace with the path to your input image
     matrix_size = 2  # You can adjust the matrix size for different dithering patterns
 
     input_image = imageio.imread(input_path)

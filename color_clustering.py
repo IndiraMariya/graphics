@@ -44,7 +44,7 @@ def simplify_image(image_path, output_path, num_colors=8):
     plt.show()
 
 if __name__ == "__main__":
-    input_path = "flower.png"  # Replace with the path to your input image
+    input_path = "input/cat.png"  # Replace with the path to your input image
     output_path = "output_simplified_image.png"  # Replace with the desired output path
     num_colors = 8  # You can adjust the number of colors
 
